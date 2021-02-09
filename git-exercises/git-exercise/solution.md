@@ -50,3 +50,5 @@ $ echo 'blob 14\0Hello, World!' | openssl sha1
     Insights 
         Got same SHA keys from git and SHA1 direct command which explains how git creates keys.
 11.  Try `git revert` to revert a commit.
+    Insight 
+        Pretty straight forward i was able to undo last commit got commit id from git log
