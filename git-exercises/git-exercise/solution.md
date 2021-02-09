@@ -32,3 +32,21 @@
 7. Create an annotated tag, and use `git show` to see more information about it.
     Insights
         created annoted tag and was able to view using `git show` command
+8. Merge 2 branches(ex. feature, and master) and look at the git logs.
+9.  Make two conflicting changes to `sample.txt` in two different branches.
+    Insights
+        got commit id for merge date and author for the merge.
+
+10. Use various options in git log to see the filtered history of repository.
+    Insight 
+        git log filter is quite useful able to retrive log by diffrent time and also first line
+
+11.  Try Following command to see how Git is creating SHA Keys and storing values
+```shell
+$ echo 'Hello, World!' | git hash-object --stdin
+```
+```shell
+$ echo 'blob 14\0Hello, World!' | openssl sha1
+    Insights 
+        Got same SHA keys from git and SHA1 direct command which explains how git creates keys.
+11.  Try `git revert` to revert a commit.
